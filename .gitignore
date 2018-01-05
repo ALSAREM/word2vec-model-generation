@@ -2,3 +2,6 @@
 **/*.xml
 **/*.gz
 **/*.txt
+!questions-words.txt
+!questions-phrases.txt
+umbc/webbase_all/*
