@@ -4,6 +4,12 @@ You can use the [Word2Vec proposed by Google](https://code.google.com/archive/p/
 
 In this project, we build codes for each sapcific datasource, like Wikipedia dump, or umbc_corpus. We don't include the data but we list here from where you can got them.
 
+## Project structure
+- **datasets**: contains a folder for each dataset and the code to train word2vec on it.
+- **word2vec-app**: the c code from Google
+- **wikiextractor-app**: a Python code to transform Wikipedia XML files to text files.
+
+
 ## Where to obtain the training data
 
 The quality of the word vectors increases significantly with amount of the training data. For research purposes, you can consider using data sets that are available on-line:
