@@ -4,4 +4,4 @@
 **/*.txt
 !questions-words.txt
 !questions-phrases.txt
-umbc/webbase_all/*
+datasets/umbc/webbase_all/*
