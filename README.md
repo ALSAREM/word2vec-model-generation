@@ -1,6 +1,6 @@
 # Welcome to Word2Vec Model Generation
 
-You can use the Word2Vec proposed by Google to train models (vectors) to be used in any word2vec application.
+You can use the [Word2Vec proposed by Google](https://code.google.com/archive/p/word2vec/) to train models (vectors) to be used in any word2vec application.
 
 In this project, we build codes for each sapcific datasource, like Wikipedia dump, or umbc_corpus. We don't include the data but we list here from where you can got them.
 
