@@ -2,6 +2,8 @@
 **/*.xml
 **/*.gz
 **/*.txt
+**/*.bz2
 !questions-words.txt
 !questions-phrases.txt
 datasets/umbc/webbase_all/*
+datasets/wikipedia/clean-files/*

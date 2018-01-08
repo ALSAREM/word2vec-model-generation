@@ -562,11 +562,18 @@ class Extractor(object):
             out.write(out_str)
             out.write('\n')
         else:
+            """
+            Mazen: I modified the code to have only the text without tags 
+            old code: 
             if options.print_revision:
                 header = '<doc id="%s" revid="%s" url="%s" title="%s">\n' % (self.id, self.revid, url, self.title)
             else:
                 header = '<doc id="%s" url="%s" title="%s">\n' % (self.id, url, self.title)
             footer = "\n</doc>\n"
+            """
+            header ='## %s ' % (self.title)
+            footer ='###'
+
             if out == sys.stdout:   # option -a or -o -
                 header = header.encode('utf-8')
             out.write(header)
