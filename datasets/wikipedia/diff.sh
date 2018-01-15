@@ -1,0 +1,1 @@
+comm -1 enwiki-pages-articles.txt enwiki-pages-articles-data-phrase.txt > ./diff.txt
